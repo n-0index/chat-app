@@ -1,8 +1,9 @@
 import 'package:chat_app/core/constants/asset_images.dart';
 import 'package:chat_app/core/themes/styles.dart';
-import 'package:chat_app/features/presentation/views/widgets/navigate_to_home.dart';
-import 'package:chat_app/features/presentation/views/widgets/sliding_text.dart';
+import 'package:chat_app/features/home_screen/presentation/views/widgets/navigate_to_home.dart';
 import 'package:flutter/material.dart';
+
+import 'sliding_text.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});

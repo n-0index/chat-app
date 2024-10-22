@@ -1,4 +1,4 @@
-import 'package:chat_app/features/presentation/home_screen/home_view.dart';
+import 'package:chat_app/features/home_screen/presentation/views/home_view.dart';
 import 'package:get/get.dart';
 
 void navigateToHome(){
