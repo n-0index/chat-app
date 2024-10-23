@@ -24,6 +24,7 @@ class _LoginViewBodyState extends State<LoginViewBody> {
   @override
   Widget build(BuildContext context) {
     return Form(
+      autovalidateMode: AutovalidateMode.onUserInteraction,
       key: formKey ,
       child: SingleChildScrollView(
         child: Padding(

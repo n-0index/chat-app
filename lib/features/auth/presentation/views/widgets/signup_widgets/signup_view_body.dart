@@ -31,6 +31,7 @@ class _SignupViewBodyState extends State<SignupViewBody> {
   @override
   Widget build(BuildContext context) {
     return Form(
+      autovalidateMode: AutovalidateMode.onUserInteraction,
       key: formKey ,
       child: SingleChildScrollView(
         child: Padding(

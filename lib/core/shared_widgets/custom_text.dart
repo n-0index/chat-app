@@ -31,10 +31,9 @@ Widget customText ({
     icon: Icon(suffix, ),
 
 )  : null,
-    border:  OutlineInputBorder(
+    border: OutlineInputBorder(
       borderRadius: BorderRadius.circular(30.0),
     ),
-
     focusedBorder: const  OutlineInputBorder(
       borderSide:  BorderSide(color: ColorApp.primaryColor, width: 2.0),
     ),
